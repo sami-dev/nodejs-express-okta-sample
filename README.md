@@ -100,7 +100,7 @@ Please follow these steps to configure and run this application in your NodeJS e
    * After login, you should see a Welcome message
       <br/>
       <img src="readme-images/run-app-4.jpg" alt="Run the app"/>
-   * Click on Logout to make sure logout is working fine
+   * Click on Logout link to make sure logout is working fine
       <br/>
       <img src="readme-images/run-app-2.jpg" alt="Run the app"/>
 
