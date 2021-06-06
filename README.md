@@ -3,6 +3,19 @@
 This repository contains a sample Node JS application that uses Express framework.
 It uses OpenID Connect library to integrate with your Okta org.
 
+## Prerequisites
+   Make sure you have installed Node JS on your machine
+   To check version of Node JS and NPM, run the below commands on your command prompt
+   To check the version of Node JS, go to your terminal and type
+
+   * node - v
+
+    You should also check npm version
+
+    * npm -v
+   <br/>
+   <img src="readme-images/pre-req1.jpg" alt="Create a new app integration"/>
+
 ## How to integrate this application with your Okta Org
 
 Please follow these steps to configure and run this application in your NodeJS environment
