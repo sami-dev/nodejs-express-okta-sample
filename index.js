@@ -5,9 +5,9 @@ const { ExpressOIDC } = require("@okta/oidc-middleware");
 const app = express();
 const path = require("path");
 const oidc = new ExpressOIDC({
-  issuer: "https://dev-217355.oktapreview.com/oauth2/default",
-  client_id: "0oazmcgd4iRiO4h4T0h7",
-  client_secret: "DxNfeKFYd574iRDK0_K8e7N42R8HXVc5XLezZ189",
+  issuer: "https://dev-#####.oktapreview.com/oauth2/default",
+  client_id: "Enter Client Id from your Okta application configuration",
+  client_secret: "Enter Client Secret from your Okta application configuration",
   appBaseUrl: "http://localhost:3000",
   scope: "openid profile",
 });
