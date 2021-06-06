@@ -54,3 +54,12 @@ Please follow these steps to configure and run this application in your NodeJS e
       });
    ```
 5. Run the application
+   * Start the application
+      - node index.js
+   * Access the application in a new browser window
+      - http://localhost:3000/
+   * Click on Login link and login page should appear
+   * Login with an active account of your Okta org
+   * After login, you should see a Welcome message
+   * Click on Logout to make sure logout is working fine
+
