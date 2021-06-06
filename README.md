@@ -16,8 +16,8 @@ It uses OpenID Connect library to integrate with your Okta org.
       <br/>
       <img src="readme-images/prereq-1.jpg" alt="Node JS vesion"/>
       <br/>
-      If you need to download Node.js then you can download from here <br/>
-      [Download Node.js](https://nodejs.org/en/download/)
+      If you need to download Node.js then you can download from here [Download Node JS](https://nodejs.org/en/download/).
+      
       <br/>
    2. Sign up for [Okta Developer Edition](http://developer.okta.com/).    
        You'll need an Okta *organization* of your own to use as you follow this guide. After activating your account, log in to it. If you just created an account, you'll see a        screen similar to the one below. Click on **< > Developer Console** in the top-left corner and switch to the Classic UI.
