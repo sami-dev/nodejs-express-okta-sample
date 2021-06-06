@@ -30,10 +30,13 @@ Please follow these steps to configure and run this application in your NodeJS e
    <br/>
    git clone https://github.com/sami-dev/nodejs-express-okta-sample.git
 
-2. Run the below command <br/>
+2. Go inside the downloaded folder and npm install command   
    ```
+   cd nodejs-express-okta-sample
    npm install
    ```
+   <br/>
+   <img src="readme-images/npminstall.jpg" alt="NPM install"/>
    <br/>
    
    - npm install downloads dependencies defined in a package. json file and generates a node_modules folder with the installed modules
