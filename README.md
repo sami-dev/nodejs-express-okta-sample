@@ -4,17 +4,19 @@ This repository contains a sample Node JS application that uses Express framewor
 It uses OpenID Connect library to integrate with your Okta org.
 
 ## Prerequisites
-   Make sure you have installed Node JS on your machine <br/>
-   To check version of Node JS and NPM, run the below commands on your command prompt <br/>
-   Check the versions of NodeJS and NPM
+   1. Make sure you have installed Node JS on your machine <br/>
+      To check version of Node JS and NPM, run the below commands on your command prompt <br/>
+      Check the versions of NodeJS and NPM
 
-   ```
-   node -v
-   npm -v
-   ```
+      ```
+      node -v
+      npm -v
+      ```
        
-   <br/>
-   <img src="readme-images/prereq-1.jpg" alt="Create a new app integration"/>
+      <br/>
+      <img src="readme-images/prereq-1.jpg" alt="Create a new app integration"/>
+   2. Sign up for [Okta Developer Edition](http://developer.okta.com/).    
+       You'll need an Okta *organization* of your own to use as you follow this guide. After activating your account, log in to it. If you just created an account, you'll see a        screen similar to the one below. Click on **< > Developer Console** in the top-left corner and switch to the Classic UI.
 
 ## How to integrate this application with your Okta Org
 
