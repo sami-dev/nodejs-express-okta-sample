@@ -104,3 +104,13 @@ Please follow these steps to configure and run this application in your NodeJS e
       <br/>
       <img src="readme-images/run-app-2.jpg" alt="Run the app"/>
 
+## References
+
+* [Create an OIDC app integration using AIW](https://help.okta.com/en/prod/Content/Topics/Apps/Apps_App_Integration_Wizard_OIDC.htm)
+* [Simple Node Authentication](https://developer.okta.com/blog/2018/04/24/simple-node-authentication) 
+* [Simple Express Application](https://expressjs.com/en/starter/hello-world.html)
+* [Build Simple Authentication in Express in 15 minutes](https://developer.okta.com/blog/2019/05/31/simple-auth-express-fifteen-minutes)
+
+## Authors
+
+* **Sami Abdul**
