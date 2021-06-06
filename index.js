@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/protected", oidc.ensureAuthenticated(), (req, res) => {
-  res.send("Top Secret");
+  res.send("Protected Page");
 });
 
 oidc.on("ready", () => {
