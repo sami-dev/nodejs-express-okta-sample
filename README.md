@@ -4,8 +4,8 @@ This repository contains a sample Node JS application that uses Express framewor
 It uses OpenID Connect library to integrate with your Okta org.
 
 ## Prerequisites
-   1. Make sure you have installed Node JS on your machine <br/>
-      To check version of Node JS and NPM, run the below commands on your command prompt <br/>
+   1. Make sure you have Node.js installed on your machine <br/>
+      To check version of Node.js and NPM, run the below commands on your command prompt <br/>
       Check the versions of NodeJS and NPM
 
       ```
@@ -14,7 +14,11 @@ It uses OpenID Connect library to integrate with your Okta org.
       ```
        
       <br/>
-      <img src="readme-images/prereq-1.jpg" alt="Create a new app integration"/>
+      <img src="readme-images/prereq-1.jpg" alt="Node JS vesion"/>
+      <br/>
+      If you need to download Node.js then you can download from here <br/>
+      [Download Node.js] (https://nodejs.org/en/download/)
+      <br/>
    2. Sign up for [Okta Developer Edition](http://developer.okta.com/).    
        You'll need an Okta *organization* of your own to use as you follow this guide. After activating your account, log in to it. If you just created an account, you'll see a        screen similar to the one below. Click on **< > Developer Console** in the top-left corner and switch to the Classic UI.
 
@@ -35,6 +39,7 @@ Please follow these steps to configure and run this application in your NodeJS e
    - npm install downloads dependencies defined in a package. json file and generates a node_modules folder with the installed modules
 
 3. Configure a Web Application in your Okta Org
+   * Login to your Okta Org
    * Go to Applications --> Applications
       - Click on Create new application
    * Provide below information in "Create a new app integration" wizard
@@ -42,7 +47,7 @@ Please follow these steps to configure and run this application in your NodeJS e
       - Select Application type as "Web Application"
       <br/>
       <img src="readme-images/okta-createapp-1.jpg" alt="Create a new app integration"/>
-   * Provide Application configuration information
+   * Provide Application configuration information and assign application to user groups
       For Example:
       - Application Name: My NodeJS Express App
       - Grant Type: Authorization Code
@@ -58,10 +63,12 @@ Please follow these steps to configure and run this application in your NodeJS e
       <br/>
       <img src="readme-images/okta-createapp-4.jpg" alt="Copy the client Id and client secret"/>
    *  Go to Security --> API --> Authorization servers --> default
-      - Copy the issuer 
+      - Copy the issuer information
       <br/>
       <img src="readme-images/okta-auth-server-1.jpg" alt="Copy the issuer"/>
 4. Update the OIDC configuration inside index.js
+   <br/>
+   Open the application code in a text editor and update the OIDC configuration
    ```
       const oidc = new ExpressOIDC({
         issuer: "https://dev-####.oktapreview.com/oauth2/default",
