@@ -24,7 +24,18 @@ Please follow these steps to configure and run this application in your NodeJS e
       Select Application type as "Web Application"
       <br/>
       <img src="readme-images/okta-createapp-1.jpg" alt="Create a new app integration"/>
-
+   * Provide Application configuration information
+      For Example:
+      - Application Name: My NodeJS Express App
+      - Grant Type: Authorization Code
+      - Sign-in Redirect URIs: http://localhost:3000/authorization-code/callback
+      - Sign-out Redirect URIs: http://localhost:3000
+      - Assignments: Limit access to selected groups : Sales
+      <br/>
+      <img src="readme-images/okta-createapp-2.jpg" alt="Create a new app integration"/>
+   *  Review the group assignments
+      <br/>
+      <img src="readme-images/okta-createapp-3.jpg" alt="Create a new app integration"/>
 4. Update the configuration inside index.js
 
 5. Run the application
