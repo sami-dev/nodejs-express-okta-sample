@@ -4,8 +4,8 @@ This repository contains a sample Node JS application that uses Express framewor
 It uses OpenID Connect library to integrate with your Okta org.
 
 ## Prerequisites
-   Make sure you have installed Node JS on your machine
-   To check version of Node JS and NPM, run the below commands on your command prompt
+   Make sure you have installed Node JS on your machine <br/>
+   To check version of Node JS and NPM, run the below commands on your command prompt <br/>
    Check the versions of NodeJS and NPM
 
    ```
