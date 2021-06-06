@@ -44,7 +44,7 @@ Please follow these steps to configure and run this application in your NodeJS e
       <br/>
       <img src="readme-images/okta-auth-server-1.jpg" alt="Copy the issuer"/>
 4. Update the OIDC configuration inside index.js
-   <code>
+   ```
       const oidc = new ExpressOIDC({
         issuer: "https://dev-####.oktapreview.com/oauth2/default",
         client_id: "################",
@@ -52,5 +52,5 @@ Please follow these steps to configure and run this application in your NodeJS e
         appBaseUrl: "http://localhost:3000",
         scope: "openid profile",
       });
-
+   ```
 5. Run the application
