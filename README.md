@@ -9,7 +9,7 @@ It uses OpenID Connect library to integrate with your Okta org.
    Check the versions of NodeJS and NPM
 
    ```
-   node - v
+   node -v
    npm -v
    ```
        
