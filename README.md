@@ -18,10 +18,10 @@ Please follow these steps to configure and run this application in your NodeJS e
 
 3. Configure a Web Application in your Okta Org
    * Go to Applications --> Applications
-   Click on Create new application
+      - Click on Create new application
    * Provide below information in "Create a new app integration" wizard
-      Select Sign-On method as OIDC - OpenID Connect
-      Select Application type as "Web Application"
+      - Select Sign-On method as OIDC - OpenID Connect
+      - Select Application type as "Web Application"
       <br/>
       <img src="readme-images/okta-createapp-1.jpg" alt="Create a new app integration"/>
    * Provide Application configuration information
@@ -33,9 +33,24 @@ Please follow these steps to configure and run this application in your NodeJS e
       - Assignments: Limit access to selected groups : Sales
       <br/>
       <img src="readme-images/okta-createapp-2.jpg" alt="Create a new app integration"/>
-   *  Review the group assignments
+   *  Review the application configuration and group assignments
       <br/>
       <img src="readme-images/okta-createapp-3.jpg" alt="Create a new app integration"/>
-4. Update the configuration inside index.js
+   *  Copy the Client Id and Client secret from the application configuration
+      <br/>
+      <img src="readme-images/okta-createapp-4.jpg" alt="Copy the client Id and client secret"/>
+   *  Go to Security --> API --> Authorization servers --> default
+      - Copy the issuer 
+      <br/>
+      <img src="readme-images/okta-auth-server-1.jpg" alt="Copy the issuer"/>
+4. Update the OIDC configuration inside index.js
+   <code>
+      const oidc = new ExpressOIDC({
+        issuer: "https://dev-####.oktapreview.com/oauth2/default",
+        client_id: "################",
+        client_secret: "#######################",
+        appBaseUrl: "http://localhost:3000",
+        scope: "openid profile",
+      });
 
 5. Run the application
