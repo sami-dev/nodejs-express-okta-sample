@@ -25,9 +25,12 @@ Please follow these steps to configure and run this application in your NodeJS e
    git clone https://github.com/sami-dev/nodejs-express-okta-sample.git
 
 2. Run the below command <br/>
+   ```
    npm install
+   ```
    <br/>
-   * npm install downloads dependencies defined in a package. json file and generates a node_modules folder with the installed modules
+   
+   - npm install downloads dependencies defined in a package. json file and generates a node_modules folder with the installed modules
 
 3. Configure a Web Application in your Okta Org
    * Go to Applications --> Applications
