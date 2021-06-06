@@ -8,11 +8,16 @@ It uses OpenID Connect library to integrate with your Okta org.
    To check version of Node JS and NPM, run the below commands on your command prompt
    To check the version of Node JS, go to your terminal and type
 
-   * node - v
-
+   ```
+   node - v
+   ```
+   
     You should also check npm version
-
-    * npm -v
+    
+    ```
+    npm -v
+    ```
+    
    <br/>
    <img src="readme-images/pre-req1.jpg" alt="Create a new app integration"/>
 
