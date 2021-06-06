@@ -14,7 +14,7 @@ It uses OpenID Connect library to integrate with your Okta org.
    ```
        
    <br/>
-   <img src="readme-images/pre-req1.jpg" alt="Create a new app integration"/>
+   <img src="readme-images/prereq-1.jpg" alt="Create a new app integration"/>
 
 ## How to integrate this application with your Okta Org
 
