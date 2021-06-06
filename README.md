@@ -48,6 +48,7 @@ Please follow these steps to configure and run this application in your NodeJS e
       <br/>
       <img src="readme-images/okta-createapp-1.jpg" alt="Create a new app integration"/>
    * Provide Application configuration information and assign application to user groups
+     <br/>
       For Example:
       - Application Name: My NodeJS Express App
       - Grant Type: Authorization Code
