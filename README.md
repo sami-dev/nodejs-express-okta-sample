@@ -71,11 +71,23 @@ Please follow these steps to configure and run this application in your NodeJS e
    ```
 5. Run the application
    * Start the application
-      - node index.js
+      ```
+      node index.js
+      ```
+      <br/>
+      <img src="readme-images/run-app-1.jpg" alt="Run the app"/>
    * Access the application in a new browser window
       - http://localhost:3000/
+     <br/>
+     <img src="readme-images/run-app-2.jpg" alt="Run the app"/>
    * Click on Login link and login page should appear
+      <br/>
+      <img src="readme-images/run-app-3.jpg" alt="Run the app"/>
    * Login with an active account of your Okta org
    * After login, you should see a Welcome message
+      <br/>
+      <img src="readme-images/run-app-4.jpg" alt="Run the app"/>
    * Click on Logout to make sure logout is working fine
+      <br/>
+      <img src="readme-images/run-app-5.jpg" alt="Run the app"/>
 
